@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+canvas{
+    position: absolute;
+    z-index: 0;
+}
+
+button, .changebutton {
+    color:#000;
+    font-family: 'Yuji Boku', serif;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    background:rgba(232, 225, 179, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    display: block;
+  }

@@ -1,8 +1,49 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <meta name="msapplication-TileImage" content="images/favicons/tile.png" />
+    <!-- Windows 8 -->
+    <meta name="msapplication-TileColor" content="#00CCFF" />
+    <!-- Windows 8 color -->
+    <!--[if IE
+      ]><link rel="shortcut icon" href="images/favicons/favicon.ico"
+    /><![endif]-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.me/8fdb4f48-8151-4647-8aec-a6f8305d1096%2Ffavicon-32x32.png?v=1638749540965"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="https://cdn.glitch.me/8fdb4f48-8151-4647-8aec-a6f8305d1096%2Ffavicon-32x32.png?v=1638749540965"
+    />
+    <!-- iPad Retina-->
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="https://cdn.glitch.me/8fdb4f48-8151-4647-8aec-a6f8305d1096%2Ffavicon-32x32.png?v=1638749540965"
+    />
+    <!--iPhone Retina -->
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="https://cdn.glitch.me/8fdb4f48-8151-4647-8aec-a6f8305d1096%2Ffavicon-32x32.png?v=1638749540965"
+    />
+    <!-- iPad 1 e 2 -->
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://cdn.glitch.me/8fdb4f48-8151-4647-8aec-a6f8305d1096%2Ffavicon-32x32.png?v=1638749540965"
+    />
     <title>cedar lake</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Merienda&family=Neucha&family=Staatliches&family=Yuji+Boku&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/styles.css" />
@@ -10,14 +51,23 @@
     <!-- import the latest version of hydra synth-->
     <script src="https://unpkg.com/hydra-synth"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/p5.js"></script>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.176.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.176.0/examples/jsm/"
+          }
+        }
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-    <script src="/main.js" defer></script>
+    <script type="module" src="main.js"></script>
 
 
 </head>
 <body>
+    <div class="buttons"></div>
     <canvas id="myCanvas"></canvas>
 </body>
 </html>
