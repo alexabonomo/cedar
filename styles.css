@@ -19,7 +19,10 @@ button, .changebutton {
     border-width: 1px;
     border-radius: 10px;
     cursor: pointer;
-    z-index: 1;
-    position: absolute;
-    display: block;
   }
+
+  .buttons{
+    position: absolute;
+    z-index: 1;
+  }
+
